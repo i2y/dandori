@@ -1,5 +1,17 @@
 # dandori
 
+> **dandori now lives in [ritsu](https://github.com/i2y/ritsu)**, as one of its seven languages, and
+> its documentation in English and Japanese is at <https://i2y.github.io/ritsu/dandori/>. This
+> repository keeps dandori's history and its release 0.1.0; from 0.23.0 dandori comes with ritsu,
+> and runs as `ritsu dandori …` or as `dandori`:
+>
+> ```console
+> $ brew install i2y/tap/ritsu
+> $ cargo install --git https://github.com/i2y/ritsu --locked ritsu
+> ```
+>
+> dandori は [ritsu](https://github.com/i2y/ritsu) の七つの言語の一つになりました。文書は <https://i2y.github.io/ritsu/dandori/ja/> にあり、0.23.0 からは ritsu と一緒に入ります（`ritsu dandori …` か `dandori` で呼びます）。
+
 A small typed language for workflows that call business rules. A workflow books a hotel stay,
 reserves the lines of an order, answers a customer's inquiry: it calls APIs and rules, waits,
 retries, and drives things like a Stripe PaymentIntent from state to state.
